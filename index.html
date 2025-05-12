@@ -1,82 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nome da EJ</title>
+  <title>Orbe Consultoria Internacional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Overpass&family=Anton&family=League+Sparta&display=swap" rel="stylesheet" />
   <style>
+    :root {
+      --amarelo: #fad02c;
+      --cinza-claro: #a2a0a0;
+      --cinza-escuro: #3b3b3b;
+      --preto: #000000;
+      --branco: #ffffff;
+    }
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
+      font-family: 'Maven Pro', sans-serif;
+      background: var(--cinza-claro);
+      color: var(--cinza-escuro);
     }
     header {
-      background: #333;
-      color: #fff;
-      padding: 1rem;
+      background: var(--preto);
+      color: var(--branco);
+      padding: 2rem 1rem;
       text-align: center;
     }
-    .container {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-      background: white;
+    header img {
+      max-width: 150px;
+      margin-bottom: 1rem;
     }
-    form input, form textarea {
-      width: 100%;
-      padding: 0.5rem;
-      margin: 0.5rem 0;
+    nav {
+      background: var(--amarelo);
+      text-align: center;
+      padding: 0.75rem;
     }
-    form button {
-      background: #333;
-      color: white;
-      padding: 0.7rem 1.5rem;
-      border: none;
-      cursor: pointer;
+    nav a {
+      color: var(--preto);
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
     }
     footer {
       text-align: center;
+      background: var(--cinza-claro);
       padding: 1rem;
-      background: #eee;
-      margin-top: 2rem;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Nome da Empresa Júnior</h1>
-    <p>Soluções de consultoria por universitários comprometidos</p>
+    <img src="logo.png" alt="Logo Orbe Consultoria Internacional" />
+    <h1>Orbe Consultoria Internacional</h1>
+    <p>Empresa Júnior de Relações Internacionais da UNESP - Franca</p>
   </header>
-
-  <div class="container">
-    <section>
-      <h2>Sobre Nós</h2>
-      <p>Aqui vai um pequeno texto sobre a EJ, missão, valores etc.</p>
-    </section>
-
-    <section>
-      <h2>Blog</h2>
-      <p>Em breve: publicações com reflexões, dicas e cases.</p>
-    </section>
-
-    <section>
-      <h2>Fale com um consultor</h2>
-      <form action="https://formspree.io/f/xbloawlw" method="POST">
-        <input type="text" name="nome" placeholder="Seu nome" required>
-        <input type="email" name="email" placeholder="Seu e-mail" required>
-        <textarea name="mensagem" placeholder="Como podemos te ajudar?" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-  </div>
-
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="servicos.html">Serviços</a>
+    <a href="blog.html">Blog</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <section>
+    <h2>Bem-vindo à Orbe Consultoria Internacional!</h2>
+    <p>Somos uma empresa júnior de Relações Internacionais da UNESP - Franca. Nossa missão é proporcionar soluções estratégicas em consultoria para empresas e organizações que buscam expandir sua atuação internacionalmente.</p>
+  </section>
   <footer>
-    <p>&copy; 2025 Nome da EJ. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Orbe Consultoria Internacional • Todos os direitos reservados</p>
   </footer>
-
 </body>
 </html>
